@@ -5,7 +5,7 @@
 
 
 
-$('div.header-right i').click(function () {
+$('div.header-right i.fa-bars').click(function () {
 
     $('div.hamburger-menu').show();
 

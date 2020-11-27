@@ -3,20 +3,19 @@
 // (ricordate che per vedere l’hamburger in alto a destra dovete scendere a risoluzioni tipo tablet o mobile).
 
 
+var header_fa_bars = $('div.header-right i.fa-bars');
+var hamburger_menu = $("div.hamburger-menu");
+var hamburger_menu_close = $("div.hamburger-menu > a.close");
 
 
-$('div.header-right i.fa-bars').click(function () {
+header_fa_bars.click(function () {
 
-    $('div.hamburger-menu').show();
+    hamburger_menu.show();
 
   })
 
 
 
-$('div.hamburger-menu > a.close').click(function () {
-
-
-$('div.hamburger-menu').hide();
-
-
-})
+hamburger_menu_close.click(function () {
+  hamburger_menu.hide();
+});
